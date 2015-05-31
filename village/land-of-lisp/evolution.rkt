@@ -29,7 +29,7 @@ Maintainer:         <https://github.com/wargrey>
       (with-handlers ([exn:fail? void])
         (define-values {tput stdsize false stderr} (subprocess #false (current-input-port) #false (find-executable-path "stty") "size"))
         (when (eof-object? (read-line stderr))
-          (set!-values {WIDTH HEIGHT} (values (- (read stdsize) 2) (- (read stdsize) 3)))
+          (set!-values {HEIGHT WIDTH} (values (- (read stdsize) 2) (- (read stdsize) 3)))
           (set! H-EDGE (make-list (+ WIDTH 2) (car H-EDGE))))
         (close-input-port stdsize)
         (close-input-port stderr))
