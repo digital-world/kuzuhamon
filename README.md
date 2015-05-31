@@ -3,17 +3,24 @@
 _Discipline_ is the act of intentionally restricting your design choices
 so that you can work more productively at a higher level of abstraction.
 
-_All the projects are not ready!_
+* Land of Lisp: Learn to Program in Lisp, One Game at a Time!
 
-* [Land of Lisp: Learn to Program in Lisp, One Game at a
-  Time!](/Kuzuhamon/digivice/land-bang.rkt)
+  * [evolution](village/land-of-lisp/evolution.rkt)
 
-* [Realm of Racket: Learn to Program, One Game at a
-  Time!](/Kuzuhamon/digivice/realm-bang.rkt)
+  * [grand theft wumpus](village/land-of-lisp/grand-theft-wumpus.rkt)
 
-* [The Nature of Code: Simulating Natural Systems with
-  Racket](/Kuzuhamon/digivice/nature-bang.rkt)
+  * [guess my number](village/land-of-lisp/guess-my-number.rkt)
 
----
+  * [orc battle](village/land-of-lisp/orc-battle.rkt)
 
-> 📌No particular example!
+  * [wizards adventure](village/land-of-lisp/wizards-adventure.rkt)
+
+* Realm of Racket: Learn to Program, One Game at a Time!
+
+  * [guessing gooey](village/realm-of-racket/guessing-gooey.rkt)
+
+  * [robot snake](village/realm-of-racket/robot-snake.rkt)
+
+* The Nature of Code: Simulating Natural Systems with Racket
+
+  * [random walks](village/the-nature-of-code/random-walks.rkt)
