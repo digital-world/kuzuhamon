@@ -1,0 +1,15 @@
+2
+bigger
+smaller
+bigger
+smaller
+smaller
+bigger
+start-over
+smaller
+bigger
+smaller
+bigger
+smaller
+:q
+0
