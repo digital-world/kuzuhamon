@@ -7,6 +7,7 @@ Maintainer:         <https://github.com/wargrey/discipline>
 |#
 
 (provide (all-defined-out))
+(provide (all-from-out "../digicore.rkt"))
 
 @require{../digicore.rkt}
 
