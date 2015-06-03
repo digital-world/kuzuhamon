@@ -5,15 +5,15 @@ so that you can work more productively at a higher level of abstraction.
 
 * Land of Lisp: Learn to Program in Lisp, One Game at a Time!
 
-  * [evolution](village/land-of-lisp/evolution.rkt)
-
-  * [grand theft wumpus](village/land-of-lisp/grand-theft-wumpus.rkt)
-
-  * [guess my number](village/land-of-lisp/guess-my-number.rkt)
+  * [wizards adventure](village/land-of-lisp/wizards-adventure.rkt)
 
   * [orc battle](village/land-of-lisp/orc-battle.rkt)
 
-  * [wizards adventure](village/land-of-lisp/wizards-adventure.rkt)
+  * [guess my number](village/land-of-lisp/guess-my-number.rkt)
+
+  * [evolution](village/land-of-lisp/evolution.rkt)
+
+  * [grand theft wumpus](village/land-of-lisp/grand-theft-wumpus.rkt)
 
 * Realm of Racket: Learn to Program, One Game at a Time!
 
