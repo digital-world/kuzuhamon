@@ -7,4 +7,5 @@
 
 (current-digimon "Kuzuhamon")
 
+(define discipline-name : String (path->string (find-system-path 'run-file)))
 (define digimon-island : (Parameterof Path-String) (make-parameter (build-path (digimon-terminus) "island")))

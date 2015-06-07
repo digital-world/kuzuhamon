@@ -15,8 +15,6 @@ Maintainer:         <https://github.com/wargrey/discipline>
 
 (require typed/mred/mred)
 
-(define discipline-name : String (path->string (find-system-path 'run-file)))
-
 (define nature-bang% 
   (class frame%
     (override on-superwindow-show)

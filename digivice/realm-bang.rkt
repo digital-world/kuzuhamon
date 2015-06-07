@@ -1,4 +1,8 @@
-#!/usr/bin/env racket
+#!/bin/sh
+#|
+exec racket --name "realm-of-racket" --require "$0" -- ${1+"$@"}
+|#
+
 #lang at-exp racket/gui
 
 #|
@@ -11,7 +15,6 @@ Maintainer:         <https://github.com/wargrey/discipline>
 
 (require racket/date)
 
-(define discipline-name "realm-of-racket")
 (define realm-bang (dynamic-require (build-path (digimon-digitama) "engine" "legacy-world.rkt") 'big-bang void))
 
 (date-display-format 'iso-8601)

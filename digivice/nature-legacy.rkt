@@ -1,4 +1,8 @@
-#!/usr/bin/env racket
+#!/bin/sh
+#|
+exec racket --name "the-nature-of-code" --require "$0" -- ${1+"$@"}
+|#
+
 #lang at-exp racket/gui
 
 #|
@@ -11,7 +15,6 @@ Maintainer:         <https://github.com/wargrey/discipline>
 
 (require racket/date)
 
-(define discipline-name "the-nature-of-code")
 (define nature-bang (dynamic-require (build-path (digimon-digitama) "engine" "legacy-world.rkt") 'big-bang void))
 
 (date-display-format 'iso-8601)

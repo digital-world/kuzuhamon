@@ -1,4 +1,8 @@
-#!/usr/bin/env racket
+#!/bin/sh
+#|
+exec racket --name "land-of-lisp" --require "$0" -- ${1+"$@"}
+|#
+
 #lang at-exp racket
 
 #|
@@ -8,10 +12,7 @@ Maintainer:         <https://github.com/wargrey/discipline>
 |#
 
 @require{../digitama/digicore.rkt}
-
-(define discipline-name "land-of-lisp")
-
-(require "../digitama/engine/ancient-world-x.rkt")
+@require{../digitama/engine/ancient-world-x.rkt}
 
 (printf "Welcome to the Land of Lisp~n")
 (let land-bang ([text-games (filter-map {lambda [rkt-path]

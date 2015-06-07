@@ -1,4 +1,8 @@
-#!/usr/bin/env racket
+#!/bin/sh
+#|
+exec racket --name "land-of-lisp" --require "$0" -- ${1+"$@"}
+|#
+
 #lang at-exp racket
 
 #|
@@ -11,7 +15,6 @@ Maintainer:         <https://github.com/wargrey/discipline>
 
 (require racket/date)
 
-(define discipline-name "land-of-lisp")
 (define land-repl (dynamic-require (build-path (digimon-digitama) "engine" "ancient-world.rkt") 'world-repl void))
 
 (date-display-format 'iso-8601)
