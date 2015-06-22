@@ -3,8 +3,8 @@
 @require{tamer.rkt}
 
 @(define {smart-table-contents name . title}
-   (nested title (itemlist (for/list ([rkt (in-list (find-digimon-files (curry regexp-match? @pregexp{.+\.rkt$})
-                                                                        (build-path (digimon-village) name)))])
+   (nested title (itemlist (for/list ([rkt (in-list (sort (find-digimon-files (curry regexp-match? @pregexp{.+\.rkt$})
+                                                                              (build-path (digimon-village) name)) path<?))])
                              (item (hyperlink (path->string (find-relative-path (digimon-zone) rkt))
                                               (string-replace (path->string (path-replace-suffix (file-name-from-path rkt) "")) #px"-+" " ")))))))
 
