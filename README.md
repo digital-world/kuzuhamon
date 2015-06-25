@@ -9,7 +9,7 @@ Monsters](http://en.wikipedia.org/wiki/Digimon).
 * **[Digimon-Gnome: The Meta-Project built for developers to make life
   simple](http://gyoudmon.org/~wargrey:DigiGnome)**
 
-* [Kuzuhamon: An instance of Per-Tamer Terminus as the part of
+* [Kuzuhamon: My instance of The Per-Tamer Terminus as the part of
   gyoudmon.org](http://gyoudmon.org/~wargrey:Kuzuhamon)
 
 * [Nanomon: Digging data from Chaos such as iPhone
@@ -26,8 +26,7 @@ Methods_ and document it with the _Literate Programming_ approach.
 
 ### 2.1. Building Scripts
 
-* **prerequisites.sh**: Build the latest Racket and Swi-Prolog from
-  offical source.
+* **prerequisites.sh**: Build the latest Racket from offical source.
 
 * **makefile.rkt**: It is the replacement of Makefile, and it's the
   toplevel one.

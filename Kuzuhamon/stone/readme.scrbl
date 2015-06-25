@@ -29,7 +29,7 @@ model software system in @italic{Formal Methods} and document it with the @itali
 
 @subsection{Building Scripts}
 @(itemlist #:style 'compact
-           @item{@bold{prerequisites.sh}: Build the latest Racket and Swi-Prolog from offical source.}
+           @item{@bold{prerequisites.sh}: Build the latest Racket from offical source.}
            @item{@bold{makefile.rkt}: It is the replacement of Makefile, and it@literal{'}s the toplevel one.}
            @item{@bold{submake.rkt}: It is the sub makefile that might exist in every @italic{digimon} directory.})
 
