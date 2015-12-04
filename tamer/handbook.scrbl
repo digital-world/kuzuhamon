@@ -17,3 +17,4 @@ so that you can work more productively at a higher level of abstraction.
            @smart-table-contents["land-of-lisp"]{Land of Lisp: Learn to Program in Lisp, One Game at a Time!}
            @smart-table-contents["realm-of-racket"]{Realm of Racket: Learn to Program, One Game at a Time!}
            @smart-table-contents["the-nature-of-code"]{The Nature of Code: Simulating Natural Systems with Racket})
+
