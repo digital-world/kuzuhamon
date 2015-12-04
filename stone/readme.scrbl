@@ -67,3 +67,4 @@ Obviousely, our @italic{digimons} have their own life cycle.
            @item{@bold{Baby}: The 1st stage of @italic{digimon evolution} hatching straightly from her @italic{digitama}. Namely it@literal{'}s the @tt{Alpha Version}.}
            @item{@bold{Child}: The 2nd stage of @italic{digimon evolution} evolving quickly from @bold{Baby}. Namely it@literal{'}s the @tt{Beta Version}.}
            @item{@bold{Adult}: The 3rd stage of @italic{digimon evolution} evolving from @bold{Child}. At this stage @italic{digimons} are strong enough to live on their own.})
+

@@ -12,7 +12,8 @@ Maintainer:         <https://github.com/wargrey/discipline>
 |#
 
 @require{../digitama/digicore.rkt}
-@require{../digitama/engine/ancient-world-x.rkt}
+
+(require "../digitama/engine/ancient-world-x.rkt")
 
 (printf "Welcome to the Land of Lisp~n")
 (let land-bang ([text-games (filter-map {lambda [rkt-path]

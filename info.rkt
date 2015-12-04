@@ -1,8 +1,14 @@
 #lang info
 
-(define collection 'multi)
+(define collection "Kuzuhamon")
 
-(define compile-omit-paths 'all)
+(define version "Baby")
+
+(define pkg-desc "My instance of The Per-Tamer Terminus as the part of gyoudmon.org")
+
+(define compile-omit-paths (list "stone"))
 (define test-omit-paths 'all)
 
-(define build-deps '{"base" "typed-racket-lib" "dynext-lib" "scribble-lib" "web-server-lib"})
+(define racket-launcher-names (list "Kuzuhamon"))
+(define racket-launcher-libraries (list "digivice/Kuzuhamon.rkt"))
+

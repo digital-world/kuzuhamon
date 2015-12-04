@@ -20,6 +20,5 @@
                                  [exit-handler (thunk* (error 'make "[fatal] /~a needs a proper `exit-handler`!"
                                                               (find-relative-path (digimon-world) readme.scrbl)))])
                     (render (list (dynamic-require readme.scrbl 'doc)) (list (file-name-from-path target))
-                            #:dest-dir (path-only target) #:render-mixin markdown:render-mixin #:quiet? #true))
-                    (rename-file-or-directory (path-add-suffix target #".md") target #true)
-                    (printf "  [Output to ~a]~n" target))))))
+                            #:dest-dir (path-only target) #:render-mixin markdown:render-mixin #:quiet? #true)))))))
+
