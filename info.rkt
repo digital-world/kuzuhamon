@@ -6,7 +6,7 @@
 
 (define pkg-desc "My instance of The Per-Tamer Terminus as the part of gyoudmon.org")
 
-(define compile-omit-paths (list "stone"))
+(define compile-omit-paths (list "stone" "info.rkt"))
 (define test-omit-paths 'all)
 
 (define racket-launcher-names (list "Kuzuhamon"))
