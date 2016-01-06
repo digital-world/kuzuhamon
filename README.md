@@ -29,12 +29,13 @@ so that you can work more productively at a higher level of abstraction.
 
 ## Partner Digimon
 
-\[Wisemon\]   WarGrey Ju, _[**The Development Environment of the Digital        
-              World**](http://gyoudmon.org/~wargrey:wisemon)_.                  
-\[Kuzuhamon\] WarGrey Ju, _[My instance of The Per-Tamer Terminus as the part of
-              gyoudmon.org](http://gyoudmon.org/~wargrey:kuzuhamon)_.           
-\[Sakuyamon\] WarGrey Ju, _[A Lightweight HTTP                                  
-              Server](http://gyoudmon.org/~wargrey:sakuyamon)_.                 
+\[Wisemon\]   WarGrey Ju, _**The Development Environment of the Digital World**_.               
+              [`http://gyoudmon.org/~wargrey:wisemon`](http://gyoudmon.org/~wargrey:wisemon)    
+\[Kuzuhamon\] WarGrey Ju, _My instance of The Per-Tamer Terminus as the part of                 
+              gyoudmon.org_.                                                                    
+              [`http://gyoudmon.org/~wargrey:kuzuhamon`](http://gyoudmon.org/~wargrey:kuzuhamon)
+\[Sakuyamon\] WarGrey Ju, _A Lightweight HTTP Server_.                                          
+              [`http://gyoudmon.org/~wargrey:sakuyamon`](http://gyoudmon.org/~wargrey:sakuyamon)
 
 ## Bibliography
 
