@@ -27,17 +27,22 @@ so that you can work more productively at a higher level of abstraction.
 
   * [random walks](village/the-nature-of-code/random-walks.rkt)
 
-## Partner Digimon
+---
 
-\[Wisemon\]   WarGrey Ju, _**The Development Environment of the Digital World**_.               
-              [`http://gyoudmon.org/~wargrey:wisemon`](http://gyoudmon.org/~wargrey:wisemon)    
-\[Kuzuhamon\] WarGrey Ju, _My instance of The Per-Tamer Terminus as the part of                 
-              gyoudmon.org_.                                                                    
-              [`http://gyoudmon.org/~wargrey:kuzuhamon`](http://gyoudmon.org/~wargrey:kuzuhamon)
-\[Sakuyamon\] WarGrey Ju, _A Lightweight HTTP Server_.                                          
-              [`http://gyoudmon.org/~wargrey:sakuyamon`](http://gyoudmon.org/~wargrey:sakuyamon)
+## Appendix
 
-## Bibliography
+### I. Partner Digimon
+
+* _🐾 [**Wisemon: The Development Environment of the Digital
+  World**](http://gyoudmon.org/~wargrey:wisemon)_
+
+* _🐾 [Kuzuhamon: My instance of The Per-Tamer Terminus as the part of
+  gyoudmon.org](http://gyoudmon.org/~wargrey:kuzuhamon)_
+
+* _🐾 [Sakuyamon: A Lightweight HTTP
+  Server](http://gyoudmon.org/~wargrey:sakuyamon)_
+
+### II. Bibliography
 
 \[Racket\]    Matthew Flatt and PLT, “Reference: Racket,” PLT Design Inc.,                                                                          
               PLT-TR-2010-1, 2010.                                                                                                                  
